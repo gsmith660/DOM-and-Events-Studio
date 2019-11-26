@@ -83,7 +83,7 @@ window.addEventListener('load', function() {
         } else {
             alert('Shuttle Will Go Off Screen!');
         }
-    })
+    });
 
     downButton.addEventListener('click', function() {
         let backgroundHeight = shuttleBackgroundDiv.offsetHeight;
@@ -98,5 +98,5 @@ window.addEventListener('load', function() {
         } else {
             alert('Shuttle Will Go Off Screen!');
         }
-    })
+    });
 });
